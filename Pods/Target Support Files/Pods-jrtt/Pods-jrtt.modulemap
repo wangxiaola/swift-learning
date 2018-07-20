@@ -1,0 +1,6 @@
+framework module Pods_jrtt {
+  umbrella header "Pods-jrtt-umbrella.h"
+
+  export *
+  module * { export * }
+}
