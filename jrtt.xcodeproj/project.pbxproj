@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		194EE29EBA557F472B06523B /* Pods_jrtt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBD9772BD8EF04737CA4769 /* Pods_jrtt.framework */; };
+		3B02355821057A640042F348 /* WHService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02355721057A640042F348 /* WHService.swift */; };
+		3B02355A2105BCEC0042F348 /* ScenicSpotMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0235592105BCEC0042F348 /* ScenicSpotMode.swift */; };
 		3B6C78A42100297500805B07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C78A32100297500805B07 /* AppDelegate.swift */; };
 		3B6C78A62100297500805B07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6C78A52100297500805B07 /* ViewController.swift */; };
 		3B6C78A92100297500805B07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6C78A72100297500805B07 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B02355721057A640042F348 /* WHService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHService.swift; sourceTree = "<group>"; };
+		3B0235592105BCEC0042F348 /* ScenicSpotMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenicSpotMode.swift; sourceTree = "<group>"; };
 		3B6C78A02100297500805B07 /* jrtt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jrtt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6C78A32100297500805B07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B6C78A52100297500805B07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 			children = (
 				3B6C78A32100297500805B07 /* AppDelegate.swift */,
 				3B6C78A52100297500805B07 /* ViewController.swift */,
+				3B0235592105BCEC0042F348 /* ScenicSpotMode.swift */,
+				3B02355721057A640042F348 /* WHService.swift */,
 				3B6C78A72100297500805B07 /* Main.storyboard */,
 				3B6C78AA2100298400805B07 /* Assets.xcassets */,
 				3B6C78AC2100298400805B07 /* LaunchScreen.storyboard */,
@@ -232,8 +238,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B02355821057A640042F348 /* WHService.swift in Sources */,
 				3B6C78A62100297500805B07 /* ViewController.swift in Sources */,
 				3B6C78A42100297500805B07 /* AppDelegate.swift in Sources */,
+				3B02355A2105BCEC0042F348 /* ScenicSpotMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
